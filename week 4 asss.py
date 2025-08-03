@@ -21,4 +21,5 @@ uppercase_content = content.upper()
 with open("output.txt", "w") as outfile:
     outfile.write(uppercase_content)
     outfile.write(f"\n\nWORD COUNT: {word_count}\n")
-print("✅ Success! 'output.txt' has been created with processed content.")
+print("Success! 'output.txt' has been created with processed content.")
+
